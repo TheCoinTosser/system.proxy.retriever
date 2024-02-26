@@ -24,7 +24,12 @@ apply plugin: 'com.android.library'
 android {
     namespace 'com.kaivean.system_proxy'
 
-    compileSdk 33
+    compileSdkVersion 34
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
 
     defaultConfig {
         minSdk 19
