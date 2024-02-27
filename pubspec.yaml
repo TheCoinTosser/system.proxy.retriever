@@ -1,4 +1,4 @@
-name: system_proxy
+name: system.proxy.retriever
 description: A Flutter Plugin to get the system proxy settings.
 version: 0.2.0
 homepage: https://github.com/TheCoinTosser/system.proxy.retriever

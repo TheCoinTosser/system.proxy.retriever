@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftSystemProxyPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "system_proxy", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "system.proxy.retriever", binaryMessenger: registrar.messenger())
     let instance = SwiftSystemProxyPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

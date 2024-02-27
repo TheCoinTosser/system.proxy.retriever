@@ -1,6 +1,6 @@
-# system_proxy_example
+# system.proxy.retriever_example
 
-Demonstrates how to use the system_proxy plugin.
+Demonstrates how to use the system.proxy.retriever plugin.
 
 ## Getting Started
 

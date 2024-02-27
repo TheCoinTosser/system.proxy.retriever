@@ -28,8 +28,7 @@ class _MyAppState extends State<MyApp> {
       Map<String, String>? proxy = await SystemProxy.getProxySettings();
       if (proxy != null) {
         proxyStr = '${proxy["host"]}:${proxy["port"]}';
-      }
-      else {
+      } else {
         proxyStr = 'no proxy';
       }
     } on PlatformException {

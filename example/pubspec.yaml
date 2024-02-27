@@ -1,5 +1,5 @@
-name: system_proxy_example
-description: Demonstrates how to use the system_proxy plugin.
+name: system.proxy.retriever_example
+description: Demonstrates how to use the system.proxy.retriever plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  system_proxy:
+  system.proxy.retriever:
     path: ../
 
 # For information on the generic Dart part of this file, see the

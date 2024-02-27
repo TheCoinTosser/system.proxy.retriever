@@ -23,7 +23,7 @@ public class SystemProxyPlugin implements FlutterPlugin, MethodCallHandler {
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "system_proxy");
+    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "system.proxy.retriever");
     channel.setMethodCallHandler(this);
     manager = (ConnectivityManager)flutterPluginBinding.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
   }
