@@ -1,4 +1,4 @@
-group 'com.kaivean.system_proxy'
+group 'system.proxy.retriever'
 version '1.0-SNAPSHOT'
 
 buildscript {

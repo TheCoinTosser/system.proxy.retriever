@@ -1,4 +1,4 @@
-package com.kaivean.system_proxy;
+package system.proxy.retriever;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;

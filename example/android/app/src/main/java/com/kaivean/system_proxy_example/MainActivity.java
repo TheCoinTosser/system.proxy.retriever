@@ -1,4 +1,4 @@
-package com.kaivean.system_proxy_example;
+package system.proxy.retriever_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 

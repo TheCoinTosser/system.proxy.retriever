@@ -1,7 +1,7 @@
 name: system_proxy
-description: A Flutter Plugin to get system plugin. Use to set dart HttpClient proxy for grabing requests.
-version: 0.1.0
-homepage: https://github.com/kaivean/system_proxy
+description: A Flutter Plugin to get the system proxy settings.
+version: 0.2.0
+homepage: https://github.com/TheCoinTosser/system.proxy.retriever
 
 environment:
   sdk: '>=2.12.0 <4.0.0'
@@ -29,7 +29,7 @@ flutter:
       ios:
         pluginClass: SystemProxyPlugin
       android:
-        package: com.kaivean.system_proxy
+        package: system.proxy.retriever
         pluginClass: SystemProxyPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
