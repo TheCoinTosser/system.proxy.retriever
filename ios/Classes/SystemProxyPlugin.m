@@ -1,5 +1,5 @@
 #import "SystemProxyPlugin.h"
-#import <system.proxy.retriever/system.proxy.retriever-Swift.h>
+#import <system_proxy_retriever/system_proxy_retriever-Swift.h>
 
 @implementation SystemProxyPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
