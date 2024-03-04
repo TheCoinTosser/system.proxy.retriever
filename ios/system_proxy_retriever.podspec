@@ -2,7 +2,8 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'system.proxy.retriever'
+  s.name             = 'system_proxy_retriever'
+  s.swift_version    = '5.0'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
